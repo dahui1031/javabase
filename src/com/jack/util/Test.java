@@ -20,7 +20,8 @@ public class Test {
 	public static void main(String[] args) {
 		
 		String str="hello world";
-		String[] s=str.split(""); str.toCharArray();
+		String[] s=str.split("");
+		char[] charArgs=str.toCharArray();
 		StringBuilder sb=new StringBuilder("");
 		for(int i=s.length-1;i>=0;i--){
 			sb.append(s[i]);
